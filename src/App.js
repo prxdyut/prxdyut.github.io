@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <React.Fragment>
+      <header className="my-7">
+        <div className="grid gap-4 grid-cols-3">
+          <div className="grid gap-4 grid-cols-2 place-content-center">
+            <p className="justify-self-center">work</p>
+            <p className="justify-self-center">socials</p>
+          </div>
+          <img src="brand.svg"></img>
+          <div className="grid gap-4 grid-cols-2 place-content-center">
+            <p className="justify-self-center">contact</p>
+            <p className="justify-self-center">about</p>
+          </div>
+        </div>
       </header>
-    </div>
+      <div className="bg-neon h-1 w-100"></div>
+      <div className="bg-black h-1 w-2/5"></div>
+    </React.Fragment>
   );
 }
 
