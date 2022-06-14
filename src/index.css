@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,6 +13,23 @@ body {
 header{
   font-family: 'Suranna', serif;
   font-size: 1.75rem;
+}
+
+main{
+  font-family: 'Sora', sans-serif;
+}
+
+.blurBox{
+  width: 100%;
+  height: 100%;
+  background:  radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+background-blend-mode: overlay, normal;
+backdrop-filter: blur(80px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 50px;
+padding: 25px;
+/* transform: rotate(-90deg); */
 }
 
 @tailwind base;
