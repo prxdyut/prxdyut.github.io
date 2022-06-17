@@ -5,8 +5,16 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'neon': '#37E2D5',
-      'black': 'black',
+      'blue': '#23C9E8',
+      'pink': '#F74A6F',
+      'black': 'rgba(0, 0, 0, 0.9)',
+      'dark': 'rgba(0, 0, 0, 0.75)',
+      'white': 'white',
+    },
+    screens: {
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
     },
     extend: {},
   },
